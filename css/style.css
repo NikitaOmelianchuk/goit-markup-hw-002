@@ -1,0 +1,202 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --second-background-color: #e5e5e5;
+  --main-background-color: #f5f4fa;
+  --link-footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--main-text-color);
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-link {
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.contact-nav a:hover,
+.contact-nav a:focus {
+  color: var(--accent-color);
+}
+
+.contact-nav .link {
+  color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero h1 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+}
+
+.section h2,
+.section h3 {
+  color: var(--title-text-color);
+}
+
+.hero-link {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section.advantage {
+  background-color: var(--main-background-color);
+}
+
+.advantage h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantage p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section.works {
+  background-color: var(--main-background-color);
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section.command {
+  background-color: var(--second-background-color);
+}
+
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.command h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.command p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-studio-footer,
+.adress-name {
+  color: var(--white-color);
+}
+
+.adress {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.adress a {
+  color: var(--link-footer-color);
+  text-decoration: none;
+}
+
+.adress a:hover,
+.adress a:focus {
+  color: var(--accent-color);
+}
+
+.portfolio {
+  background-color: var(--main-background-color);
+}
+
+.features-link a {
+  color: var(--title-text-color);
+  background-color: var(--second-background-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  text-decoration: none;
+}
+
+.features-link a:hover,
+.features-link a:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.services-list h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.services-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
